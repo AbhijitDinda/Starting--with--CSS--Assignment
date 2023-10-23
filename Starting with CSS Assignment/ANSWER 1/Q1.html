@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Q1.css">
+    <title>CSS Example</title>
+
+    <!-- Internal CSS -->
+    <style>
+        /* Internal CSS for the body element */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        /* Internal CSS for the .container class */
+        .container {
+
+            padding: 10px;
+            background-color: #00bd72;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    <!-- Inline CSS for a specific div -->
+    <div style="background-color: lightblue; padding: 10px;">
+        <p>I am inline CSS.</p>
+    </div>
+
+    <!-- Internal CSS for another div -->
+    <div class="container">
+        <p>I am internal CSS.</p>
+    </div>
+
+    <!-- External CSS (linked from an external stylesheet) -->
+    <div class="external-css">
+        <p>I am external CSS.</p>
+    </div>
+</body>
+</html>
